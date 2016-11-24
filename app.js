@@ -3,7 +3,7 @@ var app     = express();
 var bodyParser = require('body-parser');
 var path    = require("path");
 
-app.use('/node-modules', express.static('app/node-modules'));
+app.use('/vendor', express.static('app/vendor'));
 app.use('/bower_components', express.static('bower_components'));
 app.use('/scripts', express.static('app/scripts'));
 app.use('/styles', express.static('app/styles'));
