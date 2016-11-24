@@ -9,7 +9,7 @@ app.use('/scripts', express.static('dist/scripts'));
 app.use('/styles', express.static('dist/styles'));
 app.use('/fonts', express.static('dist/fonts'));
 app.use('/images', express.static('dist/images'));
-app.use('/app', express.static('app'));
+app.use('/', express.static('dist'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
