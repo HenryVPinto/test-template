@@ -42,5 +42,9 @@
         "single"
       ]
     }
+  },
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install"
   }
 }
